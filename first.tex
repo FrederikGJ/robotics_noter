@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{circuitikz}
+\usepackage{amsmath} % Required for mathematical features
+
+\title{Noter til Robotics 001}
+\author{Frederik GJ}
+\date{March 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduktion}
+
+\textbf{Noter til robotics:} Her har jeg mulighed for at lave flotte noter i LaTeX til faget Robotics. LaTeX tillader mig at skrive matematik, diagrammer osv., alt sammen som tekstfiler. Det er helt perfekt.
+\\
+Jeg kan lære Boolean Algebra sammen med Robotics. Det kan give mig en grundlæggende forståelse for faget, på et højere teoretisk niveau.
+
+\section{Boolean Algebra og Circuit Diagrams}
+
+\subsection{Circuit Diagrams}
+
+\begin{circuitikz}
+    \draw
+    (0,0) node[and port] (and1) {}
+    (and1.in 1) node[anchor=east] {A}
+    (and1.in 2) node[anchor=east] {B}
+    (and1.out) node[anchor=west] {Q};
+
+    \draw
+    (4,0) node[or port] (or1) {}
+    (or1.in 1) node[anchor=east] {A}
+    (or1.in 2) node[anchor=east] {B}
+    (or1.out) node[anchor=west] {Q};
+\end{circuitikz}
+
+\subsection{Grundlæggende begreber}
+
+Variabler: \( A, B, C, \ldots \) som kan have værdien 1 (sand) eller 0 (falsk).
+
+\begin{itemize}
+    \item \textbf{AND-operation (logisk OG):} \( A \land B \) er sand hvis og kun hvis både \( A \) og \( B \) er sande.
+    \[ A \land B = 
+    \begin{cases} 
+    1 & \text{hvis } A = 1 \text{ og } B = 1 \\
+    0 & \text{ellers}
+    \end{cases}
+    \]
+
+    \item \textbf{OR-operation (logisk ELLER):} \( A \lor B \) er sand, hvis mindst én af \( A \) eller \( B \) er sand.
+    \[ A \lor B = 
+    \begin{cases} 
+    0 & \text{hvis } A = 0 \text{ og } B = 0 \\
+    1 & \text{ellers}
+    \end{cases}
+    \]
+
+    \item \textbf{NOT-operation (logisk IKKE):} \( \neg A \) er sand, hvis \( A \) er falsk.
+    \[ \neg A = 
+    \begin{cases} 
+    1 & \text{hvis } A = 0 \\
+    0 & \text{hvis } A = 1
+    \end{cases}
+    \]
+\end{itemize}
+
+\subsection{De Morgans love}
+
+\begin{itemize}
+    \item \( \neg (A \land B) = \neg A \lor \neg B \)
+    \item \( \neg (A \lor B) = \neg A \land \neg B \)
+\end{itemize}
+
+\subsection{Idempotent love og Nul- og et-lovene}
+
+\begin{itemize}
+    \item \( A \land A = A \)
+    \item \( A \lor A = A \)
+    \item \( A \land 0 = 0 \)
+    \item \( A \land 1 = A \)
+    \item \( A \lor 0 = A \)
+    \item \( A \lor 1 = 1 \)
+\end{itemize}
+
+\end{document}
