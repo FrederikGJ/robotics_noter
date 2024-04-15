@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Noter mandag 15. april 2024}
+\author{Frederik GJ}
+\date{April 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{3-d print og slicing}
+
+\begin{itemize}
+    \item \textbf{Logbog for dagen:} Jeg har lært at starte 3-d print med BambuStudio og jeg har lært at sætte ny filament i printerne. 
+    \begin{itemize}
+        \item Jeg downloader filen fra abstractica repo.
+        \item Jeg højreklikker på den 3-d animation der ligger på pladen i BambuStudio. Og så vælger man "Fill bed with copies".
+        \item Herefter trykker man "Slice plate".
+        \item Så vælger man "print plate". Og vælg den printer og filament.
+    \end{itemize}
+\end{itemize}
+
+\section{Hvad er Slicing i 3D-print?}
+
+\textit{Slicing} i forbindelse med 3D-print refererer til processen med at opdele en 3D-model i flere horisontale lag eller \textit{slices} ved hjælp af software. Dette er en vigtig del af forberedelsen til 3D-printning, da det omsætter en digital 3D-model til instruktioner, som en 3D-printer kan forstå og bruge til at bygge objektet lag for lag.
+
+\subsection*{Trin i Slicing-processen}
+
+Her er de grundlæggende trin i slicing-processen for 3D-print:
+
+\begin{enumerate}
+    \item \textbf{Importering af 3D-model:} Du starter med en 3D-model, som er designet i et CAD-program eller downloadet fra internettet. Denne model skal være i et format, der er kompatibelt med slicing-softwaren, ofte STL eller OBJ-format.
+    \item \textbf{Justering og tilpasning:} I slicing-softwaren kan du justere størrelsen og orienteringen af modellen på printpladen for at sikre optimal printning.
+    \item \textbf{Indstilling af printparametre:} Dette inkluderer valg af lagtykkelse, fyldtæthed, støttestrukturer og printningshastighed. Disse parametre kan varieres for at balancere mellem printningskvalitet, styrke og printningstid.
+    \item \textbf{Opdeling i lag:} Softwaren analyserer modellen og opdeler den i en serie af horisontale lag. Hver \textit{slice} repræsenterer et enkelt lag, som printeren vil bygge.
+    \item \textbf{Generering af G-code:} Efter modellen er opdelt i lag, genererer softwaren en G-code-fil, som er den detaljerede instruktion, der fortæller printeren præcis, hvor den skal bevæge sig, hvor hurtigt, og hvor meget materiale der skal ekstruderes for hvert lag.
+    \item \textbf{Overførsel til printeren:} Til sidst overføres G-code-filen til 3D-printeren, enten via USB, SD-kort eller netværk, hvorefter printeren kan begynde at opbygge objektet lag for lag.
+\end{enumerate}
+
+\section*{Konklusion}
+
+Slicing-software spiller en afgørende rolle i 3D-printning og er essentiel for at omdanne en 3D-model til et fysisk objekt.
+
+
+\end{document}
