@@ -1,6 +1,6 @@
 # Noter til faget Robotics - valgfag - forår 2024
 
-- ** Frederik G. Johannessen (Hold A - gruppe 4) **
+- **Frederik G. Johannessen (Hold A - gruppe 4)**
 
 Dette repo indeholder min logbog fra faget Robotics. Jeg har skrevet noterne i LaTex med en online editor.
 Editoren kan findes på:
