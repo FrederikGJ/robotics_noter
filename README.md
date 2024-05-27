@@ -11,7 +11,6 @@ https://www.overleaf.com/
 ![LaTex](https://img.shields.io/badge/LaTeX-%23000000?style=flat-square&logo=latex&logoColor=white)
 
 ### Billeder
-
 Der ligger også billeder fra forskellige stadier af byggeprocessen og billeder fra udnervisningen. 
 
 
