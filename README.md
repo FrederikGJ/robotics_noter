@@ -2,8 +2,7 @@
 
 - **Frederik G. Johannessen (Hold A - gruppe 4)**
 
-### Logobg - robotics 4. semester
-
+### Logbog - robotics 4. semester
 Dette repo indeholder min logbog fra faget Robotics. Jeg har skrevet noterne i LaTex (.tex format) med en online editor.
 Editoren kan findes på:
 https://www.overleaf.com/
