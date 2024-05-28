@@ -12,4 +12,6 @@ https://www.overleaf.com/
 ### Billeder
 Der ligger også billeder fra forskellige stadier af byggeprocessen og billeder fra udnervisningen. 
 
-
+### Kode 
+Den kode vi har skrevet til vores robot bil er i dette repo:
+https://github.com/FrederikGJ/robo_kode 
