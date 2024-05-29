@@ -1,4 +1,4 @@
-# Noter til faget Robotics - valgfag - forår 2024
+# Logbog til faget Robotics - valgfag - forår 2024
 
 - **Frederik G. Johannessen (Hold A - gruppe 4)**
 
