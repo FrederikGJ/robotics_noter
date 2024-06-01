@@ -8,6 +8,8 @@ Jeg har lavet en sammenfattet logbog. Den ligger i filen der hedder:
 
 Den ligger her i root mappen for dette repository. 
 
+Her er et link: https://github.com/FrederikGJ/robotics_noter/blob/main/robotics_eksamen_logbog.pdf
+
 Jeg har også skrevet kronologisk logbog for hver undervisningsgang. Filerne ligger i mappen pdf_logbog.
 
 ### Logbog 
