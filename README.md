@@ -4,7 +4,9 @@
 
 ## Logbog til eksmaen 
 Jeg har lavet en sammenfattet logbog. Den ligger i filen der hedder:
-- **AKAKAKAKKAKAKAK** 
+- **robotics_eksamen_logbog.pdf** 
+
+Den ligger her i root mappen for dette repository. 
 
 Jeg har også skrevet kronologisk logbog for hver undervisningsgang. Filerne ligger i mappen pdf_logbog.
 
