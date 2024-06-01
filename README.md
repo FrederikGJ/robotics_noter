@@ -8,7 +8,7 @@ Jeg har lavet en sammenfattet logbog. Den ligger i filen der hedder:
 
 Jeg har også skrevet kronologisk logbog for hver undervisningsgang. Filerne ligger i mappen pdf_logbog.
 
-### Logbog - robotics 4. semester
+### Logbog 
 Logbogen er skrevet i LaTex (.tex format) med en online LaTex editor.
 Editoren kan findes på:
 https://www.overleaf.com/
