@@ -10,7 +10,7 @@ Den ligger her i root mappen for dette repository.
 
 Her er et link: https://github.com/FrederikGJ/robotics_noter/blob/main/robotics_eksamen_logbog.pdf
 
-Jeg har også skrevet kronologisk logbog for hver undervisningsgang. Filerne ligger i mappen pdf_logbog.
+### Jeg har også skrevet kronologisk logbog for hver undervisningsgang. Filerne ligger i mappen pdf_logbog.
 
 ### Logbog 
 Logbogen er skrevet i LaTex (.tex format) med en online LaTex editor.
